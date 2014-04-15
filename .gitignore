@@ -1,0 +1,8 @@
+
+*.bundle
+
+*.log
+
+ext/siv/Makefile
+
+*.o
