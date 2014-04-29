@@ -282,8 +282,8 @@ void Init_wrapper(void) {
 	
 	// Define the implemented methods.
 	rb_define_method(siv_rb_cipher, "initialize", siv_rb_initialize, 1);
-	rb_define_method(siv_rb_cipher, "encrypt", siv_rb_encrypt, 2);
-	rb_define_method(siv_rb_cipher, "decrypt", siv_rb_decrypt, 2);
+	rb_define_method(siv_rb_cipher, "encrypt_native", siv_rb_encrypt, 2);
+	rb_define_method(siv_rb_cipher, "decrypt_native", siv_rb_decrypt, 2);
 	
   return;
 	
