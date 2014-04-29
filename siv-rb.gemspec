@@ -3,11 +3,11 @@ require 'siv/version'
 
 Gem::Specification.new do |s|
   
-  s.name        = 'siv'
+  s.name        = 'siv-rb'
   s.version     = SIV::VERSION
   s.authors     = ['Louis Mullie']
   s.email       = ['louis.mullie@gmail.com']
-  s.homepage    = 'https://github.com/louismullie/siv-rb'
+  s.homepage    = 'https://github.com/cryodex/siv-rb'
   s.summary     = %q{ Ruby C extension for the AES-SIV deterministic authenticated encryption mode. }
   s.description = %q{ Ruby C extension for the AES-SIV deterministic authenticated encryption mode. }
 

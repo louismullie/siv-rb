@@ -13,7 +13,7 @@ task :make => [:clean] do
     ruby 'extconf.rb'
     sh 'make'
   end
-  cp 'ext/siv/wrapper.bundle', 'lib/siv'
+  cp 'ext/siv/wrapper.bundle', 'lib/siv-rb'
 end
 
 CLEAN.include('ext/**/*{.o,.log,.so,.bundle}')

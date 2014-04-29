@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'siv'
+require 'siv-rb'
 
 describe SIV do
 

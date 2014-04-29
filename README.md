@@ -7,7 +7,7 @@ SIV takes a key, a plaintext, and multiple variable-length octet strings that wi
 ###Usage
 
 ```ruby
-require 'siv'
+require 'siv-rb'
 
 cipher = SIV::Cipher.new(key)
 enc = cipher.encrypt(plaintext, [ad1, ad2, ...])
